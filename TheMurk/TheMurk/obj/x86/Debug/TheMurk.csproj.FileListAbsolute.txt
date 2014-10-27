@@ -49,3 +49,24 @@ C:\Users\Alexander\Documents\FallSemester2014\GameProgramming\XNAProjects\TheMur
 C:\Users\Alexander\Documents\FallSemester2014\GameProgramming\XNAProjects\TheMurkUpdated\TheMurk\TheMurk\bin\x86\Debug\Content\Images\battery_game2.xnb
 C:\Users\Alexander\Documents\FallSemester2014\GameProgramming\XNAProjects\TheMurkUpdated\TheMurk\TheMurk\bin\x86\Debug\Content\Images\battery.xnb
 C:\Users\Alexander\Documents\FallSemester2014\GameProgramming\XNAProjects\TheMurkUpdated\TheMurk\TheMurk\bin\x86\Debug\Content\Images\gps_locator (1).xnb
+C:\TheMurk\TheMurk\TheMurk\obj\x86\Debug\TheMurk.csprojResolveAssemblyReference.cache
+C:\TheMurk\TheMurk\TheMurk\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\TheMurk\TheMurk\TheMurk\obj\x86\Debug\TheMurk.exe
+C:\TheMurk\TheMurk\TheMurk\obj\x86\Debug\TheMurk.pdb
+C:\TheMurk\TheMurk\TheMurk\bin\x86\Debug\Content\Images\background.xnb
+C:\TheMurk\TheMurk\TheMurk\bin\x86\Debug\Content\Images\stump.xnb
+C:\TheMurk\TheMurk\TheMurk\bin\x86\Debug\Content\Images\character.xnb
+C:\TheMurk\TheMurk\TheMurk\bin\x86\Debug\Content\Images\background_2048.xnb
+C:\TheMurk\TheMurk\TheMurk\bin\x86\Debug\Content\Images\PersonSpriteSheet.xnb
+C:\TheMurk\TheMurk\TheMurk\bin\x86\Debug\Content\Images\overlay.xnb
+C:\TheMurk\TheMurk\TheMurk\bin\x86\Debug\Content\Images\truestump.xnb
+C:\TheMurk\TheMurk\TheMurk\bin\x86\Debug\Content\Images\ZombieSpriteSheet.xnb
+C:\TheMurk\TheMurk\TheMurk\bin\x86\Debug\Content\Images\battery_game2.xnb
+C:\TheMurk\TheMurk\TheMurk\bin\x86\Debug\Content\Images\battery.xnb
+C:\TheMurk\TheMurk\TheMurk\bin\x86\Debug\Content\Images\gps_locator (1).xnb
+C:\TheMurk\TheMurk\TheMurk\bin\x86\Debug\Content\courier.xnb
+C:\TheMurk\TheMurk\TheMurk\bin\x86\Debug\TheMurk.exe
+C:\TheMurk\TheMurk\TheMurk\bin\x86\Debug\TheMurk.pdb
+C:\TheMurk\TheMurk\TheMurk\bin\x86\Debug\Antlr3.Runtime.dll
+C:\TheMurk\TheMurk\TheMurk\bin\x86\Debug\DebugTerminal.pdb
+C:\TheMurk\TheMurk\TheMurk\bin\x86\Debug\DebugTerminal.xml

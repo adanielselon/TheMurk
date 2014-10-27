@@ -1,3 +1,4 @@
 C:\Users\Alexander\Documents\Fall Semester 2014\Game Programming\XNA Projects\TheMurk\TheMurk\TheMurkContent\obj\x86\Debug\TheMurkContent.contentprojResolveAssemblyReference.cache
 C:\Users\Alexander\Documents\FallSemester2014\GameProgramming\XNAProjects\TheMurk\TheMurk\TheMurkContent\obj\x86\Debug\TheMurkContent.contentprojResolveAssemblyReference.cache
 C:\Users\Alexander\Documents\FallSemester2014\GameProgramming\XNAProjects\TheMurkUpdated\TheMurk\TheMurkContent\obj\x86\Debug\TheMurkContent.contentprojResolveAssemblyReference.cache
+C:\TheMurk\TheMurk\TheMurkContent\obj\x86\Debug\TheMurkContent.contentprojResolveAssemblyReference.cache

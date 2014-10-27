@@ -2,7 +2,6 @@ Content\Images\background.xnb
 Content\Images\stump.xnb
 Content\Images\character.xnb
 Content\Images\background_2048.xnb
-Content\courier.xnb
 Content\Images\PersonSpriteSheet.xnb
 Content\Images\overlay.xnb
 Content\Images\truestump.xnb
@@ -10,3 +9,4 @@ Content\Images\ZombieSpriteSheet.xnb
 Content\Images\battery_game2.xnb
 Content\Images\battery.xnb
 Content\Images\gps_locator (1).xnb
+Content\courier.xnb

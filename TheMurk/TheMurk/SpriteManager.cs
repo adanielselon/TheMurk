@@ -15,19 +15,23 @@ namespace TheMurk
     public class SpriteManager : Microsoft.Xna.Framework.DrawableGameComponent
     {
         //GAMEPLAY VARIABLES
-        private int stumpCount = 500;
+        private int stumpCount = 50;
         private int zombieCount = 10;
         private int batteryCount = 5;
         public readonly static Point frameSize =  new Point(512, 512);
         public readonly static Point playerSize = new Point(40, 42);
-        public readonly static int mapSize = 8; //even numbers only
+        public readonly static int mapSize = 2; //even numbers only
         public readonly static Vector2 speed = new Vector2(4, 4);
 
         private int currentTime = 0;
 
         protected bool collision = false;
-        private int losingTime = 120000;
+        private int losingTime = 10000;
         private int batteryBonus = 10000;
+
+        public bool gameOver;
+        public bool gameWon;
+        public bool gameRunOutOfTime;
 
         GameState state;
         Game game;
@@ -50,6 +54,9 @@ namespace TheMurk
         {
             this.game = game;
             state = new GameState();
+            gameOver = false;
+            gameWon = false;
+            gameRunOutOfTime = false;
             state.setLosingTime(losingTime);
         }
 
@@ -142,7 +149,10 @@ namespace TheMurk
             foreach (ZombieSprite zombie in zombies)
             {
                 if (zombie.collisionRect.Intersects(player.collisionRect))
-                    game.Exit();
+                    if (gameWon == false && gameRunOutOfTime == false)
+                    {
+                        gameOver = true;
+                    }
             }
 
             foreach (BatterySprite battery in batteries)
@@ -156,13 +166,19 @@ namespace TheMurk
 
             if (gps.collisionRect.Intersects(player.collisionRect))
             {
-                game.Exit();
+                if (gameOver == false && gameRunOutOfTime == false)
+                {
+                    gameWon = true;
+                }
             }
 
 
             state.setGameTime(state.getGameTime() + gameTime.ElapsedGameTime.Milliseconds);
             if (state.getGameTime() >= state.getLosingTime())
-                game.Exit();
+                if (gameOver == false && gameWon == false)
+                {
+                    gameRunOutOfTime = true;
+                }
 
             batteryOverlay.Update(gameTime, Game.Window.ClientBounds);
             overlay.Update(gameTime, Game.Window.ClientBounds);
@@ -186,7 +202,7 @@ namespace TheMurk
             }
             gps.Draw(gameTime, spriteBatch);
             player.Draw(gameTime, spriteBatch);
-            //overlay.Draw(gameTime, spriteBatch);
+            overlay.Draw(gameTime, spriteBatch);
             batteryOverlay.Draw(gameTime, spriteBatch);
             //overlay.Draw(gameTime, spriteBatch);
             spriteBatch.End();
